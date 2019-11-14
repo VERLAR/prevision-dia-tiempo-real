@@ -5,6 +5,12 @@ Cálculo de la previsión de ventas en el día utilizando el stream de datos rec
 
 Mediante el uso de una regresión aplicada a los datos históricos de ventas y al stream de datos recibidos en tiempo real por las Terminales Punto de Venta (TPV o POS - por sus siglas en inglés) se obtiene una previsión de las ventas diarias y se compara con la previsión de ventas estimadas en el plan de negocio.
 
+
+# Fake Data
+
+Los datos utilizados en este proyecto son Fake. Para ello utilizamos la librería pyFake.
+
+
 # ¿A quien va dirigido este código?
 
 A todo el mundo que desea compartir conocimiento.
