@@ -36,13 +36,16 @@ Esta plataforma nos permite ejecutar el código generado en la nube sin coste:
   https://signup.heroku.com/login
   ```
   
-  
-  
+## Instalar Heroku
+
+ ```bash
+https://devcenter.heroku.com/articles/heroku-cli
+   ```  
   
 ## Instalar git en tu ordenador
 
 Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si esta interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
 
-1. [Instalando Git en tu ordenador:](https://git-scm.com/book/es/v1/Empezando-Instalando-Git)
+1. [Instalando Git en tu ordenador](https://git-scm.com/book/es/v1/Empezando-Instalando-Git)
 
 2. Si tu ordenador es un Mac, te recomendamos que utilices la opción de [Brew.](https://brew.sh/index_es)
