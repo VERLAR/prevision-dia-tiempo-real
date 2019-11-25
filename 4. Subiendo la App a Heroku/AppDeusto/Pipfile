@@ -1,0 +1,47 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+gcsfs = "*"
+certifi = "==2019.6.16"
+chardet = "==3.0.4"
+dj-database-url = "==0.5.0"
+django-background-tasks = "==1.2.0"
+django-compat = "==1.0.15"
+django-heroku = "==0.3.1"
+djangorestframework = "==3.9.4"
+gunicorn = "==19.9.0"
+idna = "==2.8"
+numpy = "==1.16.4"
+pandas = "==0.24.2"
+psycopg2 = "==2.8.3"
+psycopg2-binary = "==2.8.3"
+python-dateutil = "==2.8.0"
+pytz = "==2019.1"
+requests = "==2.22.0"
+six = "==1.12.0"
+sqlparse = "==0.3.0"
+tzlocal = "==1.5.1"
+urllib3 = "==1.25.3"
+whitenoise = "==4.1.2"
+APScheduler = "==3.6.0"
+Django = "==2.2.2"
+Markdown = "==3.1.1"
+Pygments = "==2.4.2"
+PyYAML = "==5.1.1"
+google-cloud = "*"
+google-cloud-pubsub = "*"
+google-cloud-storage = "*"
+redis = "*"
+django-redis-cache = "*"
+django-cors-headers = "*"
+django-csp = "*"
+joblib = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3.7"
