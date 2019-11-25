@@ -90,7 +90,7 @@ de PubSub.
 
 Una vez finalizado, tendremos descargado un archivo JSON (las credenciales) con el
 que podremos acceder mediante Python u otros lenguajes tanto al *tema* como a la 
-*suscripción* que acabamos de crear.
+*suscripción* que acabamos de crear. Para abrir este archivo se usa el bloc de notas.
 
 ### Comprobando mediante Python
 
