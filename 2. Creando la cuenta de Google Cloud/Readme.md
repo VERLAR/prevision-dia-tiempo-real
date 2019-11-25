@@ -51,7 +51,7 @@ Empezaremos por crear un tema:
 
 ### Crear suscripción (subscription)
 
-Y continuaremos creando una suscripción:
+Y continuaremos creando una suscripción para una aplicación personalizada:
 
 ![Crear_suscripcion](../Imagenes/Crear_suscripcion.png)
 
