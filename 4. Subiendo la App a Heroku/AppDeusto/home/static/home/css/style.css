@@ -1,0 +1,93 @@
+html{
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-image: url("../images/dark-blue-gradient-wallpaper-1.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+}
+
+#logo-container {
+    background-color: #313131;
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    background-image: url("../images/DataHub.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mainSelectors {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    margin-top: 80px;
+}
+
+#live-update-time, #title {
+    color: white;
+}
+
+#graphs {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#ticketMinutoGrafico, #previsionActualGrafico {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+#ticket-minuto-grafico, #prevision-inicial-grafico, #prevision-actual-grafico {
+    height: 400px;
+}
+
+@media only screen and (min-width: 800px) {
+    .logo{
+        position: fixed;
+        right: 40px;
+        top: 20px;
+    }
+    #logo-container {
+        background-color: rgba(0,0,0,0);
+    }
+    #mainSelectors {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #ticket-minuto-grafico, #prevision-actual-grafico {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #ticket-minuto-grafico, #prevision-actual-grafico {
+        height: 270px;
+    }
+}

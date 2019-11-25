@@ -1,6 +1,17 @@
 # prevision-dia-tiempo-real
 Cálculo de la previsión de ventas en el día utilizando el stream de datos recibido por los puntos de venta (POS - por sus sigla en inglés).
 
+1. [¿Qué resuelve este código?](#qu-resuelve-este-cdigo)
+1. [Fake Data](#fake-data)
+1. [¿A quién va dirigido este código?](#a-quin-va-dirigido-este-cdigo)
+1. [TL;DR;](#tldr)
+1. [Prerequisitos](#prerequisitos)
+1. [Crear una cuenta gratuita en Heroku.com](#crer-una-cuenta-gratuita-en-herokucom)
+1. [Instalar Heroku](#instalar-heroku)
+1. [Instalar git en tu ordenador](#instalar-git-en-tu-ordenador)
+1. [Cómo seguir el curso](#cmo-seguir-el-curso)
+
+
 # ¿Qué resuelve este código?
 
 Mediante el uso de una regresión aplicada a los datos históricos de ventas y al stream de datos recibidos en tiempo real por las Terminales Punto de Venta (TPV o POS - por sus siglas en inglés) se obtiene una previsión de las ventas diarias y se compara con la previsión de ventas estimadas en el plan de negocio.
@@ -11,7 +22,7 @@ Mediante el uso de una regresión aplicada a los datos históricos de ventas y a
 Los datos utilizados en este proyecto son Fake. Para ello utilizamos la librería pyFake.
 
 
-# ¿A quien va dirigido este código?
+# ¿A quién va dirigido este código?
 
 A todo el mundo que desea compartir conocimiento.
 
@@ -49,3 +60,18 @@ Git es la herramienta que permitirá que el código que modifiques en tu ordenad
 1. [Instalando Git en tu ordenador](https://git-scm.com/book/es/v1/Empezando-Instalando-Git)
 
 2. Si tu ordenador es un Mac, te recomendamos que utilices la opción de [Brew.](https://brew.sh/index_es)
+
+## Cómo seguir el curso
+
+Este curso se divide en 4 bloques:
+
+1. Creando el modelo predictivo
+1. Creando la cuenta de Google Cloud
+1. Creando la cuenta de Heroku
+1. Subiendo la App a Heroku
+
+Se recomienda seguir los 4 bloques en el orden indicado, aunque para el usuario
+que conozca cómo crear cuentas en Google Cloud y/o en Heroku puede saltarse los
+pasos 2 y 3 respectivamente.
+
+

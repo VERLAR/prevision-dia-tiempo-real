@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Ticket Tiempo Real</title>
+        <link rel="stylesheet" type="text/css" href="/static/home/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="/static/home/images/versia.png">
+        <script src="/static/home/js/clock.js"></script>
+    </head>
+    <body onload="startTime()">
+        <div>
+            <div id="logo-container">
+                <div class="logo"></div>
+            </div>
+            <div>
+                <div id="mainSelectors">
+                    <!-- Título -->
+                    <div id="title">
+                        <h2>Ticket Tiempo Real</h2>
+                    </div>
+                    <!-- Reloj -->
+                    <div id="live-update-time">
+                        <h4 id="time"></h4>
+                    </div>
+                </div>
+            </div>
+            <div id="graphs">
+                <!-- Ticket Minuto -->
+                <div id="ticketMinutoGrafico">
+                    <div id="ticket-minuto-grafico"></div>
+                </div>
+                <div id="previsionActualGrafico">
+                    <!-- Prevision Actual -->
+                    <div id="prevision-actual-grafico"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Chartjs libraries -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/annotations.js"></script>
+    <script src="/static/home/js/main.js"></script>
+    <script src="/static/home/js/start.js"></script>
+</html>

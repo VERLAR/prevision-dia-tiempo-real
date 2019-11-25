@@ -9,6 +9,10 @@ verify_ssl = true
 plotly = "*"
 pandas = "*"
 scikit-learn = "*"
+google-cloud = "*"
+google-cloud-pubsub = "*"
+redis = "*"
+apscheduler = "*"
 
 [requires]
 python_version = "3.7"
