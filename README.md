@@ -20,6 +20,13 @@ Mediante el uso de una regresión aplicada a los datos históricos de ventas y a
 # Fake Data
 
 Los datos utilizados en este proyecto son Fake. Para ello utilizamos la librería pyFake.
+Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio. En orden y respectivamente, se instalan a partir de los siguientes enlaces:
+
+  -R proyect:  https://cloud.r-project.org/
+  
+  -RStudio Desktop free: https://rstudio.com/products/rstudio/download/
+
+ Una vez instalados, usaremos únicamente RStudio cuya interfaz es más amigable que la del propio R.
 
 
 # ¿A quién va dirigido este código?
