@@ -38,6 +38,8 @@ Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio
 
  Una vez instalados, usaremos únicamente RStudio cuya interfaz es más amigable que la del propio R.
 
+Alternativamente, se puede tener Anaconda y desde Jupiter ejecutar los notebooks de R (__recomendado__).
+La ventaja reside en que está conectado con Pycharm y GitHub.
 
 ## Crer una cuenta gratuita en Heroku.com
 

@@ -12,8 +12,8 @@ El apartado se divide en 2 bloques:
  - Datos
  - Modelo
  
-En `Datos` se encuentran los datos históricos de ventas por minuto y en `Modelo`
-encontramos un *notebook* o cuaderno de [Jupyter](https://jupyter.org/) con el
+En `Datos` se encuentran los datos históricos de ventas por minuto (procedentes de  0. Creando el modelo predictivo-> 1. Creacion Historico)
+ y en `Modelo` encontramos un *notebook* o cuaderno de [Jupyter](https://jupyter.org/) con el
 que se explica paso a paso la generación del modelo predictivo. Por ello,
 tendremos que abrir el archivo
 
