@@ -14,8 +14,8 @@ credentials = service_account.Credentials.from_service_account_info(info)
 client = pubsub_v1.SubscriberClient(credentials=credentials)
 
 # TODO: insertar la 'id' del proyecto y la 'id' de las suscripción PubSub
-project_id = ''
-subscription_id = ''
+project_id = 'first-planet-260113'
+subscription_id = 'extrarDatosPrueba'
 subscription = client.subscription_path(project_id, subscription_id)
 
 # #################################################
