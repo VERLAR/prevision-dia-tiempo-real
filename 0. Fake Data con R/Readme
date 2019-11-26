@@ -1,0 +1,39 @@
+# Fake Data con R
+
+Tras la instalación de R y RStudio, se procede a generar los datos. Para ello, se cuenta con dos
+ archivos .R  dentro de la carpeta Scripts R:
+ 1. _**Funciones_creacion_datos.R**_: Este archivo, primeramente carga las librerías de trabajo necesarias
+  (previamente hay que instalarlas usando el comando escrito en tal script). A continuación se crean las
+  siguientes funciones:
+  
+            - Simulacion_Historico_movimientos_Ventas(FechaInicio,FechaFin): genera el
+              histórico de movimientos de ventas en un periodo. Ejemplo:
+              Simulacion_Historico_movimientos_Ventas("2019-01-01","2019-12-31")
+             
+            - MapaCalorAnual(año,direccionHistoricoAnual): Es necesario contar con el archivo 
+              **_calendar - copia.R_**. Genera el mapa de calor a partir de la simulación anual
+              anterior. Ejemplo:
+              MapaCalorAnual("2019",
+               "C:..../Deusto Generacion Historico/1 - Creacion Historico/Simulación_datos_2019-01-01_2019-12-31/TXT_Simulación_datos_2019-01-01_2019-12-31.txt")
+              El resultado es:
+             
+             -Desglose_Tickets<-function(date): Desglosa el histórico de un dia por Tickets. Ejemplo: 
+              Desglose_Tickets("2019-12-15")
+           
+    Aunque dentro de los scripts se explica brevemente las herramientas y razonamientos de creación de
+    los datos, se recuerda que se han seguido modelos polinómicos de orden 7 para las ventas y un modelo
+    bimodal (la función densidad es el producto de dos funciones de densidad normales o gaussianas).
+            
+ 1. **_calendar - copia.R_**: Necesario para efectuar el mapa de calor y así poder visualizar los datos
+ históricos de un año.
+ 
+ ![Ejemplo visualización Mapa calor 2019](MapaCalor2019.png)
+ 
+Además de los scripts de R, dentro del directorio Scripts R, se encuentran las siguientes carpetas:
+
+1. **0-Modelos (a cargar)**: No es necesario realizar nada con ellos, cargan parámetros necesarios
+   para la ejecución de las funciones.
+   
+2. **1 - Creación de histórico**: Aquí se guardan el .txt del histórico de ventas, por ejemplo, anual.
+
+3. **2- Creacion de Tickets tiempo real**: Aquí se guarda .txt del desglose de un día en Tickets.
