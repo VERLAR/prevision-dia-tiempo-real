@@ -1,0 +1,3 @@
+prediction: python prediction.py
+load_data_from_pubsub: python load_data_from_pubsub.py
+web: gunicorn AppDeusto.wsgi --log-file -
