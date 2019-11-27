@@ -70,7 +70,7 @@ Git es la herramienta que permitirá que el código que modifiques en tu ordenad
 
 Este curso se divide en 5 bloques:
 
-###### 0.</li> Creando los datos
+###### 0.</li> Pasos previos
 
 ###### 1.</li> Creando el modelo predictivo
 
