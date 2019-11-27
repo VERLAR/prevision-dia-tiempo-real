@@ -28,7 +28,7 @@ A cualquier persona interesada en aplicar técnicas de análisis de datos en tie
 
 Para la utilización de este código es necesario utilizar un conjunto de herramientas cuyo coste económico es cero €. 
 
-## Instalar R y RStudio o Anaconda para Fake Data
+## Instalar R y RStudio para Fake Data
 
 Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio. En orden y respectivamente, se instalan a partir de los siguientes enlaces:
 
@@ -39,11 +39,7 @@ Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio
  Una vez instalados, usaremos únicamente RStudio cuya interfaz es más amigable que la del propio R.
 
 Alternativamente y habiendo instalado R proyect, se puede desde Anaconda (https://www.anaconda.com/distribution/) usar
- Jupiter para ejecutar los notebooks de R (__recomendado__). Para introducir R en Jupiter es necesario instalar el núcleo de R
- en Anaconda (Introducir en Anaconda Prompt -> conda install -c r r-irkernel). El siguiente
-  [enlace](https://www.datacamp.com/community/blog/jupyter-notebook-r?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=229765585183&utm_targetid=aud-299261629574:dsa-473406574235&utm_loc_interest_ms=&utm_loc_physical_ms=20271&gclid=Cj0KCQiAt_PuBRDcARIsAMNlBdoi3RLWEo0rbsGESX9t97-Hr7jXs2OP_TxAcxQEA6c9Tsk7n38qNZcaAtbxEALw_wcB) resuelve algunas de las posibles complicaciones que puedan surgir.
-
-La ventaja de esta opción reside en que está conectado con Pycharm y GitHub.
+ Jupiter para ejecutar los notebooks de R (__recomendado__). La ventaja de esta opción reside en que está conectado con Pycharm y GitHub. Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
 
 ## Crer una cuenta gratuita en Heroku.com
 
