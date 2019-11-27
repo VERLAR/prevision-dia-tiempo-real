@@ -123,7 +123,7 @@ AppDeusto/
             modelo_2300.sav
 ```
 
-Esos modelos se leerán en el script `prediction.py` en la parte de la donde se
+Esos modelos se leerán en el script `prediction.py` en la parte donde se
 cargan los modelos:
 
 ```python
