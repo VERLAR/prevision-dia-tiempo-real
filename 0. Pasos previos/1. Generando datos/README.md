@@ -22,7 +22,7 @@ Se procede a generar los datos. Para ello, se cuenta con un
               inicial. La imagen resultante se guarda en _**3 - Mapas de calor**_.
                Ejemplo: MapaCalorAnual("2019")               
               El resultado muestra de forma visual la distribución del histórico:
-              ![Ejemplo visualización Mapa calor 2019](../Imagenes/MapaCalor2019.jpeg)
+              ![Ejemplo visualización Mapa calor 2019](../../Imagenes/MapaCalor2019.jpeg)
         
 
            
