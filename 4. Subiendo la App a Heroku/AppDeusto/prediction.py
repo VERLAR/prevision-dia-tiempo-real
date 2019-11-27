@@ -26,7 +26,8 @@ def load_calendar():
 
 def get_data():
     # Lectura de datos
-    dataframe = pd.read_csv('no_django/Datos.csv', sep=';')
+    dataframe = r.get('dataframe')
+    dataframe = pd.read_json(dataframe)
     dataframe['ticketDate'] = pd.to_datetime(dataframe['ticketDate'])
 
     idx = pd.DataFrame(data={'ticketDate': pd.date_range(today, periods=1440, freq='min')})
@@ -172,22 +173,18 @@ def run():
 
     # Day info
     # TODO: modificar 'now'
-    # now = datetime.now()
-    now = datetime(2019, 11, 23, 15)
+    now = datetime.now() - timedelta(days=2)
+    # now = datetime(2019, 11, 23, 15)
     today = now.strftime('%Y-%m-%d')
 
     # TODO: especificar las ventas máximas del histórico
-    file = open('modelos/max_value.txt', 'r')
+    file = open('no_django/modelos/max_value.txt', 'r')
     for line in file:
         max_value = float(line)
     file.close()
 
     # TODO: activar Redis
-    r = redis.Redis(
-        host='ec2-52-200-153-234.compute-1.amazonaws.com',
-        port=26799,
-        password='pf73262bbe920a3cc6f8660cd17d8e42a97985a22d4fd7b8785d8aa421ea24b92'
-    )
+    r = redis.from_url('redis://h:pf73262bbe920a3cc6f8660cd17d8e42a97985a22d4fd7b8785d8aa421ea24b92@ec2-52-200-153-234.compute-1.amazonaws.com:26799')
     # r = redis.from_url(os.environ.get("REDIS_URL"))
 
     # Si todavía no son las 09:02 mostramos los datos del día anterior (o los datos guardados la última vez)
