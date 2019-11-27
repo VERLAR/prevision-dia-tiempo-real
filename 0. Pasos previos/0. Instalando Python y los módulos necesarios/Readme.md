@@ -60,10 +60,11 @@ $ conda install -c r r-essentials
 ```
 
  >- Nota: Puede ser también necesario, ejecutar después:
- ```bash
-> install.packages(c(repr, IRdisplay, evaluate, crayon, pbdZMQ, devtools, uuid, digest), type=source)
-> devtools::install_github(IRkernel/IRkernel)
-> IRkernel::installspec(user=FALSE)
+ 
+```bash
+$ install.packages(c(repr, IRdisplay, evaluate, crayon, pbdZMQ, devtools, uuid, digest), type=source)
+$ devtools::install_github(IRkernel/IRkernel)
+$ IRkernel::installspec(user=FALSE)
 ```
 
 > Si hubiera complicaciones, seguir este [enlace](https://medium.com/@pabecer/instalar-el-kernel-de-r-en-jupyter-notebook-38bc724cc0d7)
