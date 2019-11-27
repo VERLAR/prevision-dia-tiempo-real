@@ -68,7 +68,7 @@
                 "sha256:7cb67e8b934fab23b6daed7144da52e8a25a47eba7f360ca43d2b448506b01ad"
             ],
             "index": "pypi",
-            "version": "==2.2.2"
+            "version": ">=2.2.4"
         },
         "django-background-tasks": {
             "hashes": [
