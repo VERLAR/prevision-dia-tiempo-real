@@ -34,7 +34,7 @@ Una vez abierto, nos colocaremos en la dirección que hemos descargado
 el repositorio:
 
 ```bash
-$ C:\path_to_repository\prevision-dia-tiempo-real
+$ cd C:\path_to_repository\prevision-dia-tiempo-real
 ```
 
 y una vez allí ejecutamos lo siguiente:
