@@ -1,7 +1,8 @@
 # Fake Data con R
 
 Se procede a generar los datos. Para ello, se cuenta con un
- archivo creado en Jupiter (como notebook de R),  dentro de la carpeta Scripts R:
+ archivo creado en Jupyter (como notebook de R),  dentro de la carpeta Scripts R:
+
  -  _**Funciones_creacion_datos_y_mapeado.ipynb**_: Este archivo, primeramente carga las librerías de trabajo necesarias
   (la primera vez hay que instalarlas usando install.packages(name), luego basta usar library(name) ) y unos parámetros de
    _**0 - Modelos (a cargar)**_. A continuación se crean las

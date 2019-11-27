@@ -88,14 +88,11 @@ def add_calendar_info():
     """Añadir información de los días festivos"""
 
     # TODO: preparar calendario
-    calendario = ['2019-01-01']
+    calendario = ['2019-01-01', '2019-01-01', '2019-01-06', '2019-03-19',
+                  '2019-04-28', '2019-05-15', '2019-07-25', '2019-08-15',
+                  '2019-10-12', '2019-11-01', '2019-12-06', '2019-12-08', '2019-12-25', '2019-12-26']
 
     df['Festivo'] = df['ticketDay'].isin(calendario)
-
-    # for prov in calendar.keys():
-    #     df[prov] = df.ticketDay.isin(calendar[prov])
-    #     df[prov + '_-1'] = df.ticketDay.isin(pd.to_datetime(calendar[prov]) - timedelta(days=1))
-    #     df[prov + '_+1'] = df.ticketDay.isin(pd.to_datetime(calendar[prov]) + timedelta(days=1))
 
 
 def drop_unused_hours(hour_now):
@@ -221,7 +218,7 @@ def run():
 
             # Cargamos el modelo correspondiente
             # TODO: se pueden cambiar los modelos para hacer diferentes pruebas
-            loaded_model = joblib.load('no_django/modelos/modelo_{}00.sav'.format(str(hour)))
+            loaded_model = joblib.load('no_django/modelos/all_data_model_{}00.sav'.format(str(hour)))
 
             # Calculamos la predicción
             prediction = loaded_model.predict(df)[0] * max_value
@@ -245,12 +242,12 @@ if __name__ == '__main__':
     df, r, calendar, today, now, pg, aa, max_value = [None] * 8
 
     sched = BlockingScheduler()
-    sched.add_job(run, 'interval', minutes=1)
+    sched.add_job(run, 'interval', seconds=30)
 
     try:
         # TODO: activar Scheduler
-        # sched.start()
-        run()
+        sched.start()
+        # run()
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         subject_email = "Error en prediction.py"
