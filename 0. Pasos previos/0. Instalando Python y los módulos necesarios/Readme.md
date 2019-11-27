@@ -1,4 +1,4 @@
-# Instalando Python
+# Instalando Python 
 
 En esta introducción, se explicará cómo instalar Python mediante la
 distribución de [Anaconda](https://www.anaconda.com) pensando que puede 
@@ -49,3 +49,23 @@ $ pip install -r requirements.txt
 
 Este proceso puede tardar varios minutos, pero a partir de entonces ya se habrán instalado todos
 los módulos de Python necesarios para los siguientes ejercicios.
+
+# Instalando R dentro de Jupiter (contenido en Anaconda)
+
+Jupiter nos permite abrir notebooks de Python. Ahora le añadiremos la funcionalidad de apertura de notebooks de R. 
+Para ello, se ejecuta nuevamente en Anaconda Prompt:
+
+```bash
+$ conda install -c r r-essentials
+```
+
+ >- Nota: Puede ser también necesario, ejecutar después:
+ ```bash
+> install.packages(c(repr, IRdisplay, evaluate, crayon, pbdZMQ, devtools, uuid, digest), type=source)
+> devtools::install_github(IRkernel/IRkernel)
+> IRkernel::installspec(user=FALSE)
+```
+
+> Si hubiera complicaciones, seguir este [enlace](https://medium.com/@pabecer/instalar-el-kernel-de-r-en-jupyter-notebook-38bc724cc0d7)
+
+
