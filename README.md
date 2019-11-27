@@ -60,7 +60,7 @@ https://devcenter.heroku.com/articles/heroku-cli
   
 ## Instalar git en tu ordenador
 
-Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si estas interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
+Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
 
 0. Antes de instalar Git en tu ordenador, [Crea una cuenta gratuita en Github](https://github.com/)
 
