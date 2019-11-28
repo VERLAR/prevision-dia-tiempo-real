@@ -224,7 +224,7 @@ if __name__ == '__main__':
     df, r, calendar, today, now, pg, aa, max_value = [None] * 8
 
     sched = BlockingScheduler()
-    sched.add_job(run, 'interval', seconds=30)
+    sched.add_job(run, 'interval', seconds=60)
 
     try:
         sched.start()
