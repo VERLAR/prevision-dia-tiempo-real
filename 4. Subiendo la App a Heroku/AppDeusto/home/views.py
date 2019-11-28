@@ -15,10 +15,7 @@ def index(request):
 @api_view(['GET'])
 def redis_data(request, name):
     # Redis-server
-    # TODO
-    r = redis.from_url(
-        'redis://h:pf73262bbe920a3cc6f8660cd17d8e42a97985a22d4fd7b8785d8aa421ea24b92@ec2-52-200-153-234.compute-1.amazonaws.com:26799')
-    # r = redis.from_url(os.environ.get("REDIS_URL"))
+    r = redis.from_url(os.environ.get("REDIS_URL"))
 
     if request.method == 'GET':
         data = r.get(name)

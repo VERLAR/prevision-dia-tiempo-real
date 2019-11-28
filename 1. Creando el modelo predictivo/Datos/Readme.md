@@ -1,4 +1,5 @@
 # Readme
 
-Los datos históricos para alimentar el modelo predictivo
+En esta carpeta hay que dejar los datos históricos calculados en el
+apartado anterior
 

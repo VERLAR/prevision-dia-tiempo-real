@@ -44,7 +44,6 @@ def run():
 
 
 if __name__ == '__main__':
-    # TODO: Cambiar url Redis
     r = redis.from_url(os.environ.get("REDIS_URL"))
 
     # TODO: Poner las datos del proyecto y de la suscripción

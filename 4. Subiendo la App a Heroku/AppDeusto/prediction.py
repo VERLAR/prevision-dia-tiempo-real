@@ -160,17 +160,14 @@ def run():
     global r, calendar, df, today, now, pg, aa, max_value
 
     # Day info
-    # TODO: modificar 'now'
     now = datetime.now()
     today = now.strftime('%Y-%m-%d')
 
-    # TODO: especificar las ventas máximas del histórico
     file = open('no_django/modelos/max_value.txt', 'r')
     for line in file:
         max_value = float(line)
     file.close()
 
-    # TODO: activar Redis
     r = redis.from_url(os.environ.get("REDIS_URL"))
 
     # Si todavía no son las 09:02 mostramos los datos del día anterior (o los datos guardados la última vez)
@@ -230,7 +227,6 @@ if __name__ == '__main__':
     sched.add_job(run, 'interval', seconds=30)
 
     try:
-        # TODO: activar Scheduler
         sched.start()
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
