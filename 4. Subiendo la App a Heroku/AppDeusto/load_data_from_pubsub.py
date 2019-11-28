@@ -63,6 +63,6 @@ if __name__ == '__main__':
 
     # Creamos nuestras tareas 'cron'
     sched = BlockingScheduler()
-    sched.add_job(run, 'interval', seconds=10)
+    sched.add_job(run, 'interval', seconds=15)
 
     sched.start()
