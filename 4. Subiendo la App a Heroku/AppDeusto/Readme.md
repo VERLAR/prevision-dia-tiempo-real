@@ -200,6 +200,15 @@ Initialized empty Git repository in
 C:/path_to_repository/prevision-dia-tiempo-real/4. Subiendo la App a Heroku/AppDeusto/.git/
 ```
 
+continuamos añadiendo todos nuestros archivos mediante `.git`:
+
+```bash
+$ git add .
+
+warning: LF will be replaced by CRLF in no_django/credenciales/credentials.json.
+The file will have its original line endings in your working directory
+```
+
 y vamos a guardar la versión que hemos creado mediante
 
 ```bash
