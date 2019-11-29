@@ -97,4 +97,7 @@ Se recomienda seguir los 5 bloques en el orden indicado, aunque para el usuario
 que conozca cómo crear cuentas en Google Cloud y/o en Heroku puede saltarse los
 pasos 2 y 3 respectivamente.
 
+## Diagrama general del curso
+
+![Estructura](ESQUEMA_PRESENTACION.jpg)
 
