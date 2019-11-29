@@ -57,7 +57,18 @@ Esta plataforma nos permite ejecutar el código generado en la nube sin coste:
  ```bash
 https://devcenter.heroku.com/articles/heroku-cli
    ```  
-  
+
+Una vez instalado, para comprobar que esté todo correcto, abrir una terminal e insertar:
+
+  ```bash
+  $  heroku --version
+  heroku/7.35.0 win32-x64 node-v12.13.0
+  ```
+
+En caso de error, hay que modificar la dirección donde apunta. Para ello proceder como sigue:
+
+![Heroku](Imagenes/HerokuCambioPath.png)
+
 ## Instalar git en tu ordenador
 
 Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
