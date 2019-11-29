@@ -1,3 +1,2 @@
-prediction: python prediction.py
-load_data_from_pubsub: python load_data_from_pubsub.py
+load_and_prediction: python load_and_prediction.py
 web: gunicorn AppDeusto.wsgi --log-file -

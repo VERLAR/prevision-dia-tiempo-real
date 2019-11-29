@@ -221,6 +221,12 @@ apuntamos a nuestra app (tendremos que cambiar el nombre de `presentacion-deusto
 $ heroku git:remote -a presentacion-deusto
 ```
 
+especificamos la franja horaria para la App
+
+```bash
+$ heroku config:add TZ="Europe/Madrid"
+```
+
 y lanzamos nuestra app a Heroku. Este proceso puede tardar varios minutos
 
 ```bash
