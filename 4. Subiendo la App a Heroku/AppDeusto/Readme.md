@@ -27,7 +27,7 @@ Cada bloque se va a montar de forma independiente en [Heroku](https://www.heroku
 (en 3 servidores diferentes) tal y como especificamos en el archivo `Procfile`
 
 ```bash
-prediction: python prediction.py
+prediction: python prediction.py  (actualizar con IdProyecto y nombre suscripción)
 load_data_from_pubsub: python load_data_from_pubsub.py
 web: gunicorn AppDeusto.wsgi --log-file -
 ```
