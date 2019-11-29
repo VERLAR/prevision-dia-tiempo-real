@@ -268,3 +268,12 @@ accediendo a la url que nos muestra nuestra terminal:
 remote:        Released v6
 remote:        https://presentacion-deusto.herokuapp.com/ deployed to Heroku
 ```
+Finalmente, conviene recargar la página web de Heroku y además activar los procesos, llegando a visualizar la siguiente situación:
+
+![Final Heroku](../../Imagenes/EstadoFinalHeroku.png)
+
+y el resultado acabará siendo:
+
+Finalmente, conviene recargar la página web de Heroku y además activar los procesos, llegando a visualizar la siguiente situación:
+
+![Final resultado](../../Imagenes/ResultadoFinal.png)
