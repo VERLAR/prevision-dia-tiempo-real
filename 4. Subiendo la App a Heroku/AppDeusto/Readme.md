@@ -27,23 +27,20 @@ Cada bloque se va a montar de forma independiente en [Heroku](https://www.heroku
 (en 3 servidores diferentes) tal y como especificamos en el archivo `Procfile`
 
 ```bash
-prediction: python prediction.py  
-load_data_from_pubsub: python load_data_from_pubsub.py     
+load_and_prediction: python load_and_prediction.py
 web: gunicorn AppDeusto.wsgi --log-file -
 ```
 
-### Carga de datos de PubSub
+### Carga de datos de PubSub y Predicción
 
-Esta parte está escrita en el script `load_data_from_pubsub.py`. Mediante ese código
+Esta parte está escrita en el script `load_and_prediction.py`. Mediante ese código
 vamos a estar escuchando constantemente los datos que vayan entrando en nuestra
 suscripción de PubSub, de forma que iremos recibiendo los tickets que se vayan 
 generando en tiempo real.
 
-### Predicción
-
-Esta parte está escrita en el script `prediction.py`. Mediante ese código se aplica
+Al mismo tiempo se aplica
 el modelo predictivo que se ha generado en la parte previa del curso a los datos
-que se vayan recibiendo en tiempo real mediante `load_data_from_pubsub.py`.
+que se vayan recibiendo en tiempo real.
 
 Los resultados obtenidos se guardan en la base de datos de [Heroku Redis](https://devcenter.heroku.com/articles/heroku-redis)
 que se ha generado anteriormente.
