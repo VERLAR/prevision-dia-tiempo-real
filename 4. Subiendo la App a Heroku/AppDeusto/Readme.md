@@ -17,14 +17,13 @@ A continuación vamos a explicar brevemente los siguientes puntos:
 
 ## Estructura de la App
 
-La app se compone de 3 bloques principales:
+La app se compone de 2 bloques principales:
 
- - [Carga de datos de PubSub](#carga-de-datos-de-pubsub)
- - [Predicción](#prediccin)
+ - [Carga de datos de PubSub y Predicción](#carga-de-datos-de-pubsub)
  - [Visualización de los datos mediante Django](#visualizacin-de-los-datos-mediante-django)
 
 Cada bloque se va a montar de forma independiente en [Heroku](https://www.heroku.com/),
-(en 3 servidores diferentes) tal y como especificamos en el archivo `Procfile`
+(en 2 servidores diferentes) tal y como especificamos en el archivo `Procfile`
 
 ```bash
 load_and_prediction: python load_and_prediction.py
@@ -67,7 +66,6 @@ AppDeusto/
     AppDeusto
     home
     no_django/
-        calendario
         credenciales/
             credentials.json
         forma_serie_temporal
@@ -80,7 +78,7 @@ acceder a los datos de PubSub.
 
 De la misma forma que en el apartado anterior, tendremos que especificar la Id
 del proyecto y de la suscripción para poder leer los datos de PubSub. Para ello,
-debemos modificar `load_data_from_pubsub.py` en la parte del `TODO`:
+debemos modificar `load_and_predict.py` en la parte del `TODO`:
 
 ```python
 # TODO: insertar la 'id' del proyecto y la 'id' de las suscripción PubSub
@@ -99,7 +97,6 @@ AppDeusto/
     AppDeusto
     home
     no_django/
-        calendario
         credenciales
         forma_serie_temporal
         modelos/
@@ -120,7 +117,7 @@ AppDeusto/
             modelo_2300.sav
 ```
 
-Esos modelos se leerán en el script `prediction.py` en la parte donde se
+Esos modelos se leerán en el script `load_and_predict.py` en la parte donde se
 cargan los modelos:
 
 ```python
@@ -133,7 +130,7 @@ y donde se lee el valor máximo utilizado en el cálculo del modelo:
 
 ```python
 # TODO: especificar las ventas máximas del histórico
-file = open('modelos/max_value.txt', 'r')
+file = open('no_django/modelos/max_value.txt', 'r')
 for line in file:
     max_value = float(line)
 file.close()
