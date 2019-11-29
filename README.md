@@ -67,7 +67,7 @@ Una vez instalado, para comprobar que esté todo correcto, abrir una terminal e 
 
 En caso de error, hay que modificar la dirección donde apunta. Para ello proceder como sigue:
 
-![Heroku](../../Imagenes/HerokuCambioPath.png)
+![Heroku](Imagenes/HerokuCambioPath.png)
 
 ## Instalar git en tu ordenador
 
