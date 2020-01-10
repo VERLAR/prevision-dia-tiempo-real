@@ -10,6 +10,10 @@ a un receptor.
 Por otro lado, vamos a tener una *suscripción* (*subscription*) en el que nos devolverá
 todo aquello que nuestro *tema* haya *escuchado*. Esta es la forma en la que el receptor recibe los datos.
 
+![pubsub](../Imagenes/pubsub.png)
+
+Tras esta breve aclaración de PubSub, la estructura que seguiremos es:
+
 1. [Creando la cuenta](#creando-la-cuenta)
 1. [Activando un pipeline en streaming mediante PubSub](#activando-un-pipeline-en-streaming-mediante-pubsub)
     1. [Crear tema (topic)](#crear-tema-topic)
