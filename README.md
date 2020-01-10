@@ -85,6 +85,13 @@ Git es la herramienta que permitirá que el código que modifiques en tu ordenad
 
 2. Si tu ordenador es un Mac, te recomendamos que utilices la opción de [Brew.](https://brew.sh/index_es)
 
+Una vez instalado, para comprobar que esté todo correcto, abrir una terminal e insertar:
+
+  ```bash
+  $  git --version
+  git version 2.24.0.windows.2
+  ```
+
 ## Cómo seguir el curso
 
 Este curso se divide en 5 bloques:
