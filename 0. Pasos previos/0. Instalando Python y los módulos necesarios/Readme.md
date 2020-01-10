@@ -56,7 +56,7 @@ los módulos de Python necesarios para los siguientes ejercicios.
 
 Jupiter nos permite abrir notebooks de lenguaje Python. Ahora le añadiremos la funcionalidad de apertura de notebooks de lenguaje R.
 
-Jupiter es una herramienta muy interesante ya que permite trabajar mediante celdas, agilizando y dinamizando la tarea de desarrollo de modelos. Debido a esta flexibilidad, es muy usado a nivel profesional en Data Science.
+Jupiter es una herramienta muy interesante ya que permite trabajar mediante celdas, agilizando y dinamizando la tarea de desarrollo de modelos. Además permite insertar texto en formato Markdown, pudiendo poner estructura y comentarios con estilo para organizar o rsalta resultados en el código y a la vez crear informes. Debido a esta flexibilidad, es muy usado a nivel profesional en Data Science.
 
 Para añadir el uso de R a Jupiter, se ejecuta nuevamente en Anaconda Prompt:
 
