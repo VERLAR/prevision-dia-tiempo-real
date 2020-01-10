@@ -45,9 +45,13 @@ La ventaja de esta opción reside en que está conectado con Pycharm y GitHub (e
 
 ## Crear una cuenta gratuita en Heroku.com
 
-Esta plataforma nos permite ejecutar el código generado en la nube sin coste:
+Heroku es una plataforma en la nube que permite construir, entregar, supervisar aplicaciones y alojarlas en la nube. En otras palabras, ofrece servicios de servidores y redes administrados por Heroku en donde se pueden alojar aplicaciones de diferentes lenguajes de programación como Python, Java, PHP y más. Por ello, no hay que preocuparse por su infraestructura, únicamente en desarrollar la aplicación.
 
-1. Creación de una cuenta gratuita en Heroku.com:
+Heroku utiliza contenedores Linux (Ubuntu) los cuales son llamados “dynos”, estos son utilizados para alojar las aplicaciones web, webservices o aplicaciones que se ejecutan del lado del servidor, así mismo cuenta con la posibilidad de instalar add-ons para agregar funcionalidades a dichos contenedores, por ejemplo, se pueden agregar servicios administrados de base de datos, almacenamiento en la nube, etz.
+
+En resumen, esta plataforma nos permite ejecutar el código generado en la nube sin coste, además de servicios de bases de datos.
+
+> Creación de una cuenta gratuita en Heroku.com:
 
   ```bash
   en tu navegador preferido:
