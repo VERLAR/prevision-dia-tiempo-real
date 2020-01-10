@@ -28,9 +28,9 @@ A cualquier persona interesada en aplicar técnicas de análisis de datos en tie
 
 Para la utilización de este código es necesario utilizar un conjunto de herramientas cuyo coste económico es cero €. 
 
-## Instalar R y RStudio para Fake Data
+## Instalar R y RStudio para Fake Data y Python para crear modelos y su gestión
 
-Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio. En orden y respectivamente, se instalan a partir de los siguientes enlaces:
+Los datos utilizados en este proyecto son Fake. Para ello utilizamos el lenguaje R y un IDE (entorno integrado de desarrollo) muy utilizado, RStudio. En orden y respectivamente, se instalan a partir de los siguientes enlaces:
 
   -R proyect:  https://cloud.r-project.org/
   
@@ -39,9 +39,11 @@ Los datos utilizados en este proyecto son Fake. Para ello utilizamos R y RStudio
  Una vez instalados, usaremos únicamente RStudio cuya interfaz es más amigable que la del propio R.
 
 Alternativamente y habiendo instalado R proyect, se puede desde Anaconda (https://www.anaconda.com/distribution/) usar
- Jupiter para ejecutar los notebooks de R (__recomendado__). La ventaja de esta opción reside en que está conectado con Pycharm y GitHub. Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
+ Jupiter para ejecutar los notebooks de R (__recomendado__). Anaconda reune múltiples entornos de trabajo y de distintos lenguajes. Además, por su sencillez y configuraciones, posee gran relevancia a nivel profesional. 
+ 
+La ventaja de esta opción reside en que está conectado con Pycharm y GitHub. Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
 
-## Crer una cuenta gratuita en Heroku.com
+## Crear una cuenta gratuita en Heroku.com
 
 Esta plataforma nos permite ejecutar el código generado en la nube sin coste:
 
