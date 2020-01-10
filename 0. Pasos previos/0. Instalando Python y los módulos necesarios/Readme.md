@@ -19,6 +19,8 @@ y descargaremos Python 3.
 Una vez descargado el archivo ejecutable, lo abrimos y seguimos los pasos
 de instalación.
 
+Como se ha comentado antes, Anaconda crea diferentes entornos de trabajo de forma cómoda y de distintos lenguajes de programación, como pueden ser Pyhton (vía Jupiter, Spider o el propio Python) o R (vía RStudio). Su apertura se efectúa desde Anaconda Navigator y su terminal desde Anaconda Promt.
+
 ## Instalando los módulos necesarios
 
 Una vez instalado, vamos a instalar los módulos necesarios. Para ello,
