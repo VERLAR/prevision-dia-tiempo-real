@@ -1,15 +1,15 @@
 # prevision-dia-tiempo-real
 Cálculo de la previsión de ventas en el día utilizando el stream de datos recibido por los puntos de venta (POS - por sus sigla en inglés).
 
-1. [¿Qué resuelve este código?](#qu-resuelve-este-cdigo)
-1. [¿A quién va dirigido este código?](#a-quin-va-dirigido-este-cdigo)
+1. [¿Qué resuelve este código?](#qué-resuelve-este-cdigo)
+1. [¿A quién va dirigido este código?](#a-quién-va-dirigido-este-cdigo)
 1. [Prerequisitos](#prerequisitos)
 1. [Instalar R y RStudio para Fake Data y Python para crear modelos y su gestión](#fake-data)
-1. [Crear una cuenta gratuita en Heroku.com](#crer-una-cuenta-gratuita-en-herokucom)
+1. [Crear una cuenta gratuita en Heroku.com](#crear-una-cuenta-gratuita-en-herokucom)
 1. [Instalar Heroku](#instalar-heroku)
 1. [Instalar git en tu ordenador](#instalar-git-en-tu-ordenador)
-1. [Cómo seguir el curso](#cmo-seguir-el-curso)
-1. [Diagrama general del curso y del ecosistema montado](#cmo-seguir-el-curso)
+1. [Cómo seguir el curso](#cómo-seguir-el-curso)
+1. [Diagrama general del curso y del ecosistema montado](#diagrama-general-del-curso-y-del-ecosistema-montado)
 
 
 # ¿Qué resuelve este código?
