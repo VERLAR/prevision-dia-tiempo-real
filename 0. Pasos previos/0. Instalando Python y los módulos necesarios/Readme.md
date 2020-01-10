@@ -52,8 +52,11 @@ los módulos de Python necesarios para los siguientes ejercicios.
 
 # Instalando R dentro de Jupiter (contenido en Anaconda)
 
-Jupiter nos permite abrir notebooks de Python. Ahora le añadiremos la funcionalidad de apertura de notebooks de R. 
-Para ello, se ejecuta nuevamente en Anaconda Prompt:
+Jupiter nos permite abrir notebooks de lenguaje Python. Ahora le añadiremos la funcionalidad de apertura de notebooks de lenguaje R.
+
+Jupiter es una herramienta muy interesante ya que permite trabajar mediante celdas, agilizando y dinamizando la tarea de desarrollo de modelos. Debido a esta flexibilidad, es muy usado a nivel profesional en Data Science.
+
+Para añadir el uso de R a Jupiter, se ejecuta nuevamente en Anaconda Prompt:
 
 ```bash
 $ conda install -c r r-essentials
