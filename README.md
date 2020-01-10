@@ -41,7 +41,7 @@ Los datos utilizados en este proyecto son Fake. Para ello utilizamos el lenguaje
 Alternativamente y habiendo instalado R proyect, se puede desde Anaconda (https://www.anaconda.com/distribution/) usar
  Jupiter para ejecutar los notebooks de R (__recomendado__). Anaconda reune múltiples entornos de trabajo y de distintos lenguajes. Además, por su sencillez y configuraciones, posee gran relevancia a nivel profesional. 
  
-La ventaja de esta opción reside en que está conectado con Pycharm y GitHub. Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
+La ventaja de esta opción reside en que está conectado con Pycharm y GitHub (esto es muy importante a nivel profesional, ya que posee _control de versiones_). Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
 
 ## Crear una cuenta gratuita en Heroku.com
 
