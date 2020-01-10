@@ -9,6 +9,7 @@ Cálculo de la previsión de ventas en el día utilizando el stream de datos rec
 1. [Instalar Heroku](#instalar-heroku)
 1. [Instalar git en tu ordenador](#instalar-git-en-tu-ordenador)
 1. [Cómo seguir el curso](#cmo-seguir-el-curso)
+1. [Diagrama general del curso y del ecosistema montado](#cmo-seguir-el-curso)
 
 
 # ¿Qué resuelve este código?
@@ -110,7 +111,7 @@ Se recomienda seguir los 5 bloques en el orden indicado, aunque para el usuario
 que conozca cómo crear cuentas en Google Cloud y/o en Heroku puede saltarse los
 pasos 2 y 3 respectivamente.
 
-## Diagrama general del curso
+## Diagrama general del curso y del ecosistema montado
 
 ![Estructura](ESQUEMA_PRESENTACION.jpg)
 
