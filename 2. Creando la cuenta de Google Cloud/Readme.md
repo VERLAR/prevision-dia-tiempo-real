@@ -4,10 +4,11 @@ En esta documentación se explicarán los pasos para crear y activar una cuenta
 en Google Cloud, y cómo crear un *pipeline* en streaming mediante [PubSub](https://cloud.google.com/pubsub/docs/overview).
 
 Por una parte vamos a crear un *tema* (*topic*) el cual va a estar *escuchando* todo el tiempo y le
-podremos enviar los mensajes que queramos.
+podremos enviar los mensajes que queramos. Al tema un emisor o publicador le envían datos, que quieren que llegen
+a un receptor.
 
 Por otro lado, vamos a tener una *suscripción* (*subscription*) en el que nos devolverá
-todo aquello que nuestro *tema* haya *escuchado*.
+todo aquello que nuestro *tema* haya *escuchado*. Esta es la forma en la que el receptor recibe los datos.
 
 1. [Creando la cuenta](#creando-la-cuenta)
 1. [Activando un pipeline en streaming mediante PubSub](#activando-un-pipeline-en-streaming-mediante-pubsub)
