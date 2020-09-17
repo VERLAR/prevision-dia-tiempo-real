@@ -35,7 +35,7 @@ Una vez abierto, nos colocaremos en la dirección que hemos descargado
 el repositorio:
 
 ```bash
-$ cd C:\path_to_repository\prevision-dia-tiempo-real
+cd C:\path_to_repository\prevision-dia-tiempo-real
 ```
 
 Crearemos el entorno virtual de Python 3.7, con el nombre de `Python37-versia-deusto` y después haremos que esté disponible en Jupyter, para poder seguir el curso mediante este entorno virtual:
@@ -63,7 +63,7 @@ python -m ipykernel install --user --name=Python37-versia-deusto
 y una vez allí ejecutamos lo siguiente (instalamos los módulos necesarios):
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Este proceso puede tardar varios minutos, pero a partir de entonces ya se habrán instalado todos
@@ -80,15 +80,15 @@ Jupyter es una herramienta muy interesante ya que permite trabajar mediante celd
 Para añadir el uso de R a Jupyter, se ejecuta nuevamente en Anaconda Prompt:
 
 ```bash
-$ conda install -c r r-essentials
+conda install -c r r-essentials
 ```
 
  >- Nota: Puede ser también necesario, ejecutar después:
  
 ```bash
-$ install.packages(c(repr, IRdisplay, evaluate, crayon, pbdZMQ, devtools, uuid, digest), type=source)
-$ devtools::install_github(IRkernel/IRkernel)
-$ IRkernel::installspec(user=FALSE)
+install.packages(c(repr, IRdisplay, evaluate, crayon, pbdZMQ, devtools, uuid, digest), type=source)
+devtools::install_github(IRkernel/IRkernel)
+IRkernel::installspec(user=FALSE)
 ```
 
 > Si hubiera complicaciones, seguir este [enlace](https://medium.com/@pabecer/instalar-el-kernel-de-r-en-jupyter-notebook-38bc724cc0d7)
