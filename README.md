@@ -40,7 +40,7 @@ Los datos utilizados en este proyecto son Fake. Para ello utilizamos el lenguaje
  
 La ventaja de esta opción reside en que está conectado con Pycharm y GitHub (esto es muy importante a nivel profesional, ya que posee _control de versiones_). Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
 
-> Nota: Un IDE (entorno integrado de desarrollo) muy conocido y utilizado de R es RStudio (RStudio Desktop free: https://rstudio.com/products/rstudio/download/)
+> Nota: Un IDE (entorno integrado de desarrollo) muy conocido y utilizado de R es RStudio (RStudio Desktop free: https://rstudio.com/products/rstudio/download/). En esta práctica no lo utilizaremos.
 
 ## Crear una cuenta gratuita en Heroku.com
 
