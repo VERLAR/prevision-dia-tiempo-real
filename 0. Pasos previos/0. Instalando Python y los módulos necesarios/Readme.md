@@ -71,6 +71,8 @@ los módulos de Python necesarios para los siguientes ejercicios.
 
 > **Nota Importante:** Para este curso se tendrá que utilizar el `Kernel` que acabamos de crear en Jupyter (`Python37-versia-deusto`), para que los módulos estén disponibles
 
+![Sin título](https://user-images.githubusercontent.com/46448986/93430037-57e21680-f8c2-11ea-9e19-134fb93cfc4b.png)
+
 # Instalando R dentro de Jupyter (contenido en Anaconda)
 
 Jupyter nos permite abrir notebooks de lenguaje Python. Ahora le añadiremos la funcionalidad de apertura de notebooks de lenguaje R.
