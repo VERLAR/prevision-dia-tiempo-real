@@ -41,7 +41,7 @@ $ cd C:\path_to_repository\prevision-dia-tiempo-real
 Crearemos el entorno virtual de Python 3.7, con el nombre de `Python37-versia-deusto` y después haremos que esté disponible en Jupyter, para poder seguir el curso mediante este entorno virtual:
 
 ```bash
-conda create --name Python37-versia-deusto
+conda create --name Python37-versia-deusto python=3.7
 ```
 
 (Activamos el entorno virtual)
