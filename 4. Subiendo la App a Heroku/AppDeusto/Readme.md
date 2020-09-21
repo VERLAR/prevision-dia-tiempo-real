@@ -269,8 +269,10 @@ Finalmente, conviene recargar la página web de Heroku y además activar los pro
 
 ![Final Heroku](../../Imagenes/EstadoFinalHeroku.png)
 
-y el resultado acabará siendo:
+Hacemos click en:
 
-Finalmente, conviene recargar la página web de Heroku y además activar los procesos, llegando a visualizar la siguiente situación:
+![image](https://user-images.githubusercontent.com/46448986/93749443-39e62000-fbfa-11ea-93a2-f5dfb8347565.png)
+
+y el resultado acabará siendo:
 
 ![Final resultado](../../Imagenes/ResultadoFinal.png)
