@@ -42,7 +42,7 @@ En segundo lugar, usaremos Python para generar los modelos y para utilizarlos en
 > Nota: Un IDE (entorno integrado de desarrollo)
 
 ## 2. Heroku
-#### 2.1. Crear una cuenta gratuita en Heroku.com
+#### 2.1 Instalar el CLI
 
 Heroku es una plataforma en la nube que permite construir, entregar, supervisar aplicaciones y alojarlas en la nube. En otras palabras, ofrece servicios de servidores y redes administrados por Heroku en donde se pueden alojar aplicaciones de diferentes lenguajes de programación como Python, Java, PHP y más. Por ello, no hay que preocuparse por su infraestructura, únicamente en desarrollar la aplicación.
 
@@ -50,14 +50,7 @@ Heroku utiliza contenedores Linux (Ubuntu) los cuales son llamados “dynos”, 
 
 En resumen, esta plataforma nos permite ejecutar el código generado en la nube sin coste, además de servicios de bases de datos.
 
-> Creación de una cuenta gratuita en Heroku.com:
-
-  ```bash
-  en tu navegador preferido:
-  https://signup.heroku.com/login
-  ```
-  
-#### 2.2 Instalar Heroku
+Para instalar el CLI (command-line interface) de Heroku. Acceder a:
 
  ```bash
 https://devcenter.heroku.com/articles/heroku-cli
