@@ -91,13 +91,6 @@ Una vez instalado, para comprobar que esté todo correcto, abrir una terminal e 
   git version 2.24.0.windows.2
   ```
 
-Además, ahora estamos en condiciones de descargarnos este repositorio a nuesto ordenador, con el fin de trabajar cómodamente en local. Para ello en una terminal, posicionamos la dirección donde queremos descargar el proyecto y efectuamos un clone con la dirección que se encuentra en Clone or Download arriba del todo en esta misma página (botón verde):
-
-```bash
-$ cd C:\Users\AlbertoI\Desktop
-$ git clone https://github.com/VERLAR/prevision-dia-tiempo-real.git
-```
-
 ## Cómo seguir el curso
 
 Este curso se divide en 5 bloques:
