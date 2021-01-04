@@ -36,7 +36,8 @@ Gracias a Google Colab no es necesaria la instalación, ni de R, Python, ni tamp
 
 Google Colab brinda un entorno gratuito de desarrollo para Python, sin embargo, veremos que también podemos usar R.
 
-Usaremos este lenguaje para generar datos Fake que alimenten tanto la creación como la utilización de los modelos.
+En primer lugar usaremos R para generar datos Fake que alimenten tanto la creación como la utilización de los modelos.
+En segundo lugar, usaremos Python para generar los modelos y para utilizarlos en streaming.
 
 > Nota: Un IDE (entorno integrado de desarrollo)
 
