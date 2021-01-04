@@ -29,18 +29,16 @@ A cualquier persona interesada en aplicar técnicas de análisis de datos en tie
 
 Para la utilización de este código es necesario utilizar un conjunto de herramientas cuyo coste económico es cero €. 
 
-## Instalar R para generar Fake Data y Python para crear modelos y su gestión
+## Google Colab
+#### Conocer R para generar Fake Data y Python para crear modelos y su gestión
 
-Los datos utilizados en este proyecto son Fake. Para ello utilizamos el lenguaje R. Para su instalación:
+Gracias a Google Colab no es necesaria la instalación, ni de R, Python, ni tampoco de ningun IDE (Anaconda, Jupiter, Pycharm,...). Unicamente tendremos que usar una cuenta de google para iniciar sesión. También será necesario (más adelante lo veremos) conectar Colab con Google Drive.
 
-  -R proyect:  https://cloud.r-project.org/
+Google Colab brinda un entorno gratuito de desarrollo para Python, sin embargo, veremos que también podemos usar R.
 
- Habiendo instalado R proyect, se puede desde Anaconda (https://www.anaconda.com/distribution/) usar
- Jupiter para ejecutar los notebooks de R (__recomendado__). Anaconda reune múltiples entornos de trabajo y de distintos lenguajes. Además, por su sencillez y configuraciones, posee gran relevancia a nivel profesional. 
- 
-La ventaja de esta opción reside en que está conectado con Pycharm y GitHub (esto es muy importante a nivel profesional, ya que posee _control de versiones_). Más adelante, se expondrán los detalles de los pasos a seguir para instalar Phyton y Anaconda e integrar en Jupiter el notebook de R.
+Usaremos este lenguaje para generar datos Fake que alimenten tanto la creación como la utilización de los modelos.
 
-> Nota: Un IDE (entorno integrado de desarrollo) muy conocido y utilizado de R es RStudio (RStudio Desktop free: https://rstudio.com/products/rstudio/download/). En esta práctica no lo utilizaremos.
+> Nota: Un IDE (entorno integrado de desarrollo)
 
 ## Crear una cuenta gratuita en Heroku.com
 
