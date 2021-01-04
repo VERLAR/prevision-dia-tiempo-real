@@ -76,7 +76,7 @@ En caso de error, hay que modificar la dirección donde apunta. Para ello proced
 
 ## 3. Git
 
-Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
+Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Git es uno de los controles de versión de código más utilziados. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
 
 0. Antes de instalar Git en tu ordenador, [Crea una cuenta gratuita en Github](https://github.com/)
 
