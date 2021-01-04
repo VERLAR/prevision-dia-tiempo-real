@@ -29,8 +29,8 @@ A cualquier persona interesada en aplicar técnicas de análisis de datos en tie
 
 Para la utilización de este código es necesario utilizar un conjunto de herramientas cuyo coste económico es cero €. 
 
-## Google Colab
-#### Conocer R para generar Fake Data y Python para crear modelos y su gestión
+## 1.Google Colab
+#### 1.1. Conocer R para generar Fake Data y Python para crear modelos y su gestión
 
 Gracias a Google Colab no es necesaria la instalación, ni de R, Python, ni tampoco de ningun IDE (Anaconda, Jupiter, Pycharm,...). Unicamente tendremos que usar una cuenta de google para iniciar sesión. También será necesario (más adelante lo veremos) conectar Colab con Google Drive.
 
@@ -41,7 +41,8 @@ En segundo lugar, usaremos Python para generar los modelos y para utilizarlos en
 
 > Nota: Un IDE (entorno integrado de desarrollo)
 
-## Crear una cuenta gratuita en Heroku.com
+## 2. Heroku
+#### 2.1. Crear una cuenta gratuita en Heroku.com
 
 Heroku es una plataforma en la nube que permite construir, entregar, supervisar aplicaciones y alojarlas en la nube. En otras palabras, ofrece servicios de servidores y redes administrados por Heroku en donde se pueden alojar aplicaciones de diferentes lenguajes de programación como Python, Java, PHP y más. Por ello, no hay que preocuparse por su infraestructura, únicamente en desarrollar la aplicación.
 
@@ -56,7 +57,7 @@ En resumen, esta plataforma nos permite ejecutar el código generado en la nube 
   https://signup.heroku.com/login
   ```
   
-## Instalar Heroku
+#### 2.2 Instalar Heroku
 
  ```bash
 https://devcenter.heroku.com/articles/heroku-cli
@@ -73,7 +74,7 @@ En caso de error, hay que modificar la dirección donde apunta. Para ello proced
 
 ![Heroku](Imagenes/HerokuCambioPath.png)
 
-## Instalar git en tu ordenador
+## 3. Git
 
 Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
 
