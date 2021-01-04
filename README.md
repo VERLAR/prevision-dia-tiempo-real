@@ -4,10 +4,6 @@ Cálculo de la previsión de ventas en el día utilizando el stream de datos rec
 1. [¿Qué resuelve este código?](#qué-resuelve-este-código)
 1. [¿A quién va dirigido este código?](#a-quién-va-dirigido-este-código)
 1. [Prerequisitos](#prerequisitos)
-1. [Instalar R y RStudio para Fake Data y Python para crear modelos y su gestión](#instalar-r-y-rstudio-para-fake-data-y-python-para-crear-modelos-y-su-gestión)
-1. [Crear una cuenta gratuita en Heroku.com](#crear-una-cuenta-gratuita-en-herokucom)
-1. [Instalar Heroku](#instalar-heroku)
-1. [Instalar git en tu ordenador](#instalar-git-en-tu-ordenador)
 1. [Cómo seguir el curso](#cómo-seguir-el-curso)
 1. [Diagrama general del curso y del ecosistema montado](#diagrama-general-del-curso-y-del-ecosistema-montado)
 
