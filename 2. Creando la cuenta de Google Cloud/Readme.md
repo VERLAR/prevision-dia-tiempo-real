@@ -106,4 +106,5 @@ Una vez se han activado las credenciales de la API, podemos utilizar el
 Comprobando Funcionamiento PubSub.ipynb
 ``` 
 
-para comprobar que todo funciona correctamente.
+para comprobar que todo funciona correctamente. Una vez más, desde Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/Colab/2.%20Creando%20la%20cuenta%20de%20Google%20Cloud/Comprobando%20Funcionamiento%20PubSub.ipynb)
+
