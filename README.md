@@ -31,11 +31,11 @@ Gracias a [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb
 
 Google Colab brinda un entorno gratuito de desarrollo para Python basado en notebooks Jupiter, sin embargo, veremos que también podemos usar R.
 
+> Nota: Usaremos por tanto Colab como IDE (entorno integrado de desarrollo)
+
 #### 1.1. Conocer R para generar Fake Data
 En primer lugar usaremos R para generar datos Fake. Se crearán dos set de datos, uno que alimente la creación de los modelos y otro set que permita la utilización de los modelos en streaming.
 
-
-> Nota: Un IDE (entorno integrado de desarrollo)
 #### 1.2. Conocer Python para crear modelos y su gestión
 
 En segundo lugar, usaremos Python para generar los modelos (SVM regresor) y también para su uso en streaming.
@@ -53,7 +53,7 @@ Heroku utiliza contenedores Linux (Ubuntu) los cuales son llamados “dynos”, 
 
 En resumen, esta plataforma nos permite ejecutar el código generado en la nube sin coste, además de servicios de bases de datos.
 
-Para instalar el CLI (command-line interface) de Heroku. Acceder a:
+Para instalar el CLI (command-line interface) de Heroku. Acceder al siguiente enlace y e ir a descargar e instalar:
 
  ```bash
 https://devcenter.heroku.com/articles/heroku-cli
@@ -71,10 +71,11 @@ En caso de error, hay que modificar la dirección donde apunta. Para ello proced
 ![Heroku](Imagenes/HerokuCambioPath.png)
 
 ## 3. Git
+Git es uno de los controles de versión de código más utilziados.
 
-Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku. Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git. Git es uno de los controles de versión de código más utilziados. Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
-
-0. Antes de instalar Git en tu ordenador, [Crea una cuenta gratuita en Github](https://github.com/)
+Git es la herramienta que permitirá que el código que modifiques en tu ordenador se pueda "subir" a la nube de Heroku.
+ 
+0. Antes de instalar Git en tu ordenador, [Crea una cuenta gratuita en Github](https://github.com/) (un repositorio de código público y privado)
 
 1. [Instalando Git en tu ordenador](https://git-scm.com/book/es/v1/Empezando-Instalando-Git)
 
@@ -86,6 +87,9 @@ Una vez instalado, para comprobar que esté todo correcto, abrir una terminal e 
   $  git --version
   git version 2.24.0.windows.2
   ```
+
+ Git aporta muchas más cosas pero queda fuera del objeto de esta guía detallar Git.  Si estás interesado te recomendamos este libro: [Gitbook](https://git-scm.com/book/es/v2)
+
 
 ## Cómo seguir el curso
 

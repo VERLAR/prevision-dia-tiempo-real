@@ -1,17 +1,27 @@
 # Google Colab  
-Colab es un servicio cloud, basado en los Notebooks de Jupyter, que permite el uso gratuito de las GPUs y TPUs de Google. Por defecto solo puede usare Python, pero más adelante veremos que también puede usarse R.
+Colab es un servicio cloud, basado en los Notebooks de Jupyter, que permite el uso gratuito de las GPUs y TPUs de Google. Por defecto solo puede usarse Python, pero más adelante veremos que también puede usarse R.
 
 Para acceder a Google Colab: https://colab.research.google.com/notebooks/welcome.ipynb
 
-### 1. Conectar con Google Drive
 
-Basta ejecutar el siguiente código y seguir las instrucciones:
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+### 1. Conectar con Google Drive
+En Archivo abrimos un nuevo cuaderno. A continuación, ejecutar el siguiente código (Ctrl+Enter) y seguir las instrucciones:
 ```bash
 from google.colab import drive
 drive.mount(‘/content/gdrive’)
 ```
 
-Ahora en la sección de directorios (icono carpeta) nos aparecerá nuestro Google Drive. Podría tardar unos minutos en sincronizarse y también puede que sea necesario actualizar el directorio de carpetas.
+Ahora en la sección de directorios (el icono de la carpeta, en la barra lateral izquierda) nos aparecerá nuestro Google Drive, gdrive. Podría tardar unos minutos en sincronizarse y también puede que sea necesario actualizar el directorio de carpetas.
 
 ### 2. Descargar proyecto de GitHub con Git
 
