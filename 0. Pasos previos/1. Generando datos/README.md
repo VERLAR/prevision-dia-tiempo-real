@@ -2,7 +2,7 @@
 
 Se procede a generar los datos. Para ello, se cuenta con un
  archivo creado en Jupyter (como notebook de R),  dentro de la carpeta Scripts R:
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/master/0.%20Pasos%20previos/1.%20Generando%20datos/Scripts%20R/Funciones_creacion_datos_y_mapeado.ipynb)
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/Colab/0.%20Pasos%20previos/1.%20Generando%20datos/Scripts%20R/Funciones_creacion_datos_y_mapeado.ipynb)
  > Antes de ejecutar es necesario crear una carpeta llamada, **0 - Modelos ( a cargar)**. Y a continuación ir añadiendo uno a uno cada fichero de nuesto respectivo proyecto en local. Estos ficheros se encuentran en **Scripts R/0 - Modelos ( a cargar)**.
 
  -  _**Funciones_creacion_datos_y_mapeado.ipynb**_: Este archivo, primeramente carga las librerías de trabajo necesarias
@@ -30,4 +30,4 @@ Se procede a generar los datos. Para ello, se cuenta con un
 En resumen, se han generado datos en .txt de un periodo de fechas,
 por ejemplo, Simulación_datos_2019-01-01_2019-12-31 y a partir de estos datos también se han generado los tickets de un día del histórico anterior, por ejemplo, Simulación_Tickets_2019-12-15.
 
-Estos ficheros se encuentan en Colab, más adelante los pasaremos a nuestro proyecto en local. Ya que, una vez cerremos Colab, la instancia será borrada y será como empezar de nuvo.
+> Estos ficheros se encuentan en Colab, más adelante los pasaremos a nuestro proyecto en local. Ya que, una vez cerremos Colab, la instancia será borrada y será como empezar de nuevo.

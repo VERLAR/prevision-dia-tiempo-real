@@ -6,19 +6,12 @@ para crear nuestros modelos predictivos.
 Se van a crear 12 modelos de regresión utilizando los modelos [SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
 del módulo de [scikit-learn](https://scikit-learn.org/stable/index.html) de [Python](https://www.python.org/).
 Un modelo para cada hora del día, empezando a las 10 de la mañana y acabando a las
-21 horas.
+21 horas. El objetivo de la previsión son las ventas totales al final de cada dia.
 
-El apartado se divide en 2 bloques:
- - Datos
- - Modelo
  
-En `Datos` se encuentran los datos históricos de ventas por minuto (procedentes de  0. Creando el modelo predictivo-> 1. Creacion Historico)
- y en `Modelo` encontramos un *notebook* o cuaderno de [Jupyter](https://jupyter.org/) con el
-que se explica paso a paso la generación del modelo predictivo. Por ello,
-tendremos que abrir el archivo
+En `Modelo` encontramos un *notebook* o cuaderno de [Jupyter](https://jupyter.org/) con el
+que se explica paso a paso la generación del modelo predictivo. 
 
-```bash
-Modelo.ipynb
-```
+Nuevamente usaremos Colab,  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/Colab/1.%20Creando%20el%20modelo%20predictivo/Modelo/Modelo.ipynb)
 
-para empezar con el curso.
+
