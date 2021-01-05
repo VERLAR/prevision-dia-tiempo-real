@@ -26,16 +26,23 @@ A cualquier persona interesada en aplicar técnicas de análisis de datos en tie
 Para la utilización de este código es necesario utilizar un conjunto de herramientas cuyo coste económico es cero €. 
 
 ## 1.Google Colab
-#### 1.1. Conocer R para generar Fake Data y Python para crear modelos y su gestión
 
-Gracias a Google Colab no es necesaria la instalación, ni de R, Python, ni tampoco de ningun IDE (Anaconda, Jupiter, Pycharm,...). Unicamente tendremos que usar una cuenta de google para iniciar sesión. También será necesario (más adelante lo veremos) conectar Colab con Google Drive.
+Gracias a [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) no es necesaria la instalación, ni de R, ni Python, ni tampoco de ningun IDE (Anaconda, Jupiter, Pycharm,...). Podemos trabajar en la nube, sin necesidad de instalaciones en local. Unicamente tendremos que usar una cuenta de google para iniciar sesión. También será necesario (más adelante lo veremos) conectar Colab con Google Drive.
 
-Google Colab brinda un entorno gratuito de desarrollo para Python, sin embargo, veremos que también podemos usar R.
+Google Colab brinda un entorno gratuito de desarrollo para Python basado en notebooks Jupiter, sin embargo, veremos que también podemos usar R.
 
-En primer lugar usaremos R para generar datos Fake que alimenten tanto la creación como la utilización de los modelos.
-En segundo lugar, usaremos Python para generar los modelos y para utilizarlos en streaming.
+#### 1.1. Conocer R para generar Fake Data
+En primer lugar usaremos R para generar datos Fake. Se crearán dos set de datos, uno que alimente la creación de los modelos y otro set que permita la utilización de los modelos en streaming.
+
 
 > Nota: Un IDE (entorno integrado de desarrollo)
+#### 1.2. Conocer Python para crear modelos y su gestión
+
+En segundo lugar, usaremos Python para generar los modelos (SVM regresor) y también para su uso en streaming.
+ 
+ Para usar los modelos en streaming se rquiere la puesta en marcha de un ecosistema en Google Cloud que simule la transmisión de datos.
+ 
+  Además, es necesaria su posterior captura y aplicación de los modelos, para ello usamos una API montada en la conocida librería Django, con su puesta en producción en Heroku.
 
 ## 2. Heroku
 #### 2.1 Instalar el CLI
