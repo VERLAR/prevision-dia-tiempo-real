@@ -1,6 +1,8 @@
 # Creando el modelo predictivo
 
-En este primer apartado del curso vamos a usar los datos históricos (*FakeData*)
+Hasta ahora, hemos sentado las bases de lo que vamos a hacer y hemos construido la materia prima que vamos a usar, los datos fake.
+
+Ahora, vamos a usar los datos históricos (*FakeData*)
 para crear nuestros modelos predictivos. 
 
 Se van a crear 12 modelos de regresión utilizando los modelos [SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
