@@ -16,4 +16,5 @@ que se explica paso a paso la generación del modelo predictivo.
 
 Nuevamente usaremos Colab,  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/Colab/1.%20Creando%20el%20modelo%20predictivo/Modelo/Modelo.ipynb)
 
+> Al finalizar, es importante descargarse la carpeta resultante **modelos** 
 
