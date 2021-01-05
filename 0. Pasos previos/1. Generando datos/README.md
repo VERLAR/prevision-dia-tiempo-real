@@ -31,4 +31,4 @@ Se procede a generar los datos. Para ello, se cuenta con un
 En resumen, se han generado datos en .txt de un periodo de fechas,
 por ejemplo, Simulación_datos_2019-01-01_2019-12-31 y a partir de estos datos también se han generado los tickets de un día del histórico anterior, por ejemplo, Simulación_Tickets_2019-12-15.
 
-> Estos ficheros se encuentan en Colab, más adelante los pasaremos a nuestro proyecto en local. Ya que, una vez cerremos Colab, la instancia será borrada y será como empezar de nuevo.
+> Estos ficheros se encuentan en Colab, más adelante los pasaremos a nuestro proyecto en local. Ya que, una vez cerremos Colab, la instancia será borrada y será como empezar de nuevo. **Es importante, por tanto que los descarguemos.**
