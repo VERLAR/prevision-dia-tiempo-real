@@ -1,9 +1,10 @@
 # Fake Data con R
 
 Se procede a generar los datos. Para ello, se cuenta con un
- archivo creado en Jupyter (como notebook de R),  dentro de la carpeta Scripts R:
+ archivo creado en Jupyter (como notebook de R,  que está en la carpeta Scripts R). Lo abrimos con Colab:
+ 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VERLAR/prevision-dia-tiempo-real/blob/Colab/0.%20Pasos%20previos/1.%20Generando%20datos/Scripts%20R/Funciones_creacion_datos_y_mapeado.ipynb)
- > Antes de ejecutar es necesario crear una carpeta llamada, **0 - Modelos ( a cargar)**. Y a continuación ir añadiendo uno a uno cada fichero de nuesto respectivo proyecto en local. Estos ficheros se encuentran en **Scripts R/0 - Modelos ( a cargar)**.
+ > Antes de ejecutar es necesario crear una carpeta en Colab llamada, **0 - Modelos (a cargar)**. Y a continuación ir añadiendo uno a uno cada fichero de nuesto respectivo proyecto en local. Estos ficheros se encuentran en **Scripts R/0 - Modelos (a cargar)**.
 
  -  _**Funciones_creacion_datos_y_mapeado.ipynb**_: Este archivo, primeramente carga las librerías de trabajo necesarias
   (la primera vez hay que instalarlas usando install.packages(name), luego basta usar library(name) ) y unos parámetros de
