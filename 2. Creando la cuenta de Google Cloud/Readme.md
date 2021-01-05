@@ -10,7 +10,7 @@ a un receptor.
 Por otro lado, vamos a tener una *suscripción* (*subscription*) en el que nos devolverá
 todo aquello que nuestro *tema* haya *escuchado*. Esta es la forma en la que el receptor recibe los datos.
 
-![pubsub](../Imagenes/pubsub.png)
+![pubsub](../Imagenes/pubsub_explain.png)
 
 Tras esta breve aclaración de PubSub, la estructura que seguiremos es:
 
