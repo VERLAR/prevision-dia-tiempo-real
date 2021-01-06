@@ -1,10 +1,13 @@
 # Creando nuestra App en Tiempo Real
 
-En esta última sección se ha generado un código base para poder visualizar los datos 
-generados en las fases previas del curso. Para ello, se ha recurrido al módulo de
+En esta última sección se ha generado un código base para poder aplicar y visualizar las predicciones de los datos generados en las fases previas del curso. Para ello, se ha recurrido al módulo de Python
 [Django](https://www.djangoproject.com/), un paquete que se integra de forma muy
-fácil en [Heroku](https://www.heroku.com/) y nos permite así crear un servidor
+fácil en [Heroku](https://www.heroku.com/) y nos permite así crear una API
 en la nube.
+
+> **Importante!** Ahora trabajaremos sobre el proyecto en local. Recordamos que nos lo descargamos al inicio del curso, gracias al uso de **git**. Para modificar los scripts de python se pued usar cualquier IDE que tengas instalado. Pero si no tienes ninguno, también sirve el editor de texto plano.
+
+La idea es dejar empaquetado en local el código y después subirlo a Heroku, donde se ejecutará.
 
 A continuación vamos a explicar brevemente los siguientes puntos:
 
