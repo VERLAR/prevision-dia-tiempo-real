@@ -11,7 +11,7 @@ django-cors-headers==3.2.0
 django-csp==3.5
 django-heroku==0.3.1
 django-redis-cache==2.1.0
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 fsspec==0.6.0
 gcsfs==0.4.0
 google-api-core==1.14.3
