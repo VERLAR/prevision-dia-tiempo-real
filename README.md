@@ -1,3 +1,7 @@
+
+<img width="1003" alt="Asset 6@2x-8" src="https://user-images.githubusercontent.com/55576623/173020977-bf420dcb-2ff7-4118-b404-cc5b82238fd1.png">
+
+
 # prevision-dia-tiempo-real
 Cálculo de la previsión de ventas en el día utilizando el stream de datos recibido por los puntos de venta (POS - por sus sigla en inglés).
 
